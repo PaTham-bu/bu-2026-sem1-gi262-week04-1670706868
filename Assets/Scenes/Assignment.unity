@@ -386,26 +386,63 @@ MonoBehaviour:
   as02Numbers: 
   as03Input: 
   as04List:
-    values: 
+    values: 0100000002000000030000000400000005000000
   as05List:
-    values: []
+    values:
+    - A
+    - B
+    - C
+    - D
   as06FirstDictionary:
-    entries: []
+    entries:
+    - key: Sword
+      value: 10
+    - key: Potion
+      value: 5
+    - key: Shield
+      value: 20
   as06SecondDictionary:
-    entries: []
+    entries:
+    - key: Potion
+      value: 3
+    - key: Bow
+      value: 15
+    - key: Shield
+      value: 5
   as07List:
-    values: 
-  as08Numbers: 
+    values: 01000000020000000200000003000000030000000300000004000000
+  as08Numbers: 0400000002000000040000000300000002000000040000000200000002000000
   as09Inventory:
-    entries: []
-  as09ItemName: 
-  as09Quantity: 0
+    entries:
+    - key: Potion
+      value: 5
+    - key: Sword
+      value: 1
+    - key: Arrow
+      value: 10
+  as09ItemName: Potion
+  as09Quantity: 3
   as10EventQueue:
-    values: []
+    values:
+    - eventType: enemy
+      name: Goblin Attack
+      priority: 3
+    - eventType: powerup
+      name: Health Potion
+      priority: 1
+    - eventType: level
+      name: Level Complete
+      priority: 2
   as11PlayerStats:
-    entries: []
-  as11StatName: 
-  as11Value: 0
+    entries:
+    - key: Health
+      value: 100
+    - key: Attack
+      value: 20
+    - key: Defense
+      value: 10
+  as11StatName: Health
+  as11Value: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
